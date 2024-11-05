@@ -25,7 +25,7 @@ class Header extends HTMLElement {
                                         <li>&nbsp;</li>
                                         <li><a href="#WeekleyClasses">Weekly Classes</a></li>
                                         <li><a href="#HolidayCamps">Holiday Camps & Workshops</a></li>
-                                        <li><a href="#AfterSchool">After School Clubs</a></li>
+                                        <li><a href="#AfterSchool">After School & LunchClubs</a></li>
                                         <li><a href="#Parties">Parties</a></li>
                                         <li><a href="#PrivateSinging">Private Singing Lessons</a></li>
 
@@ -62,7 +62,7 @@ class Header extends HTMLElement {
 
             <a class="sidenavLink" href="#WeekleyClasses">Weekly Classes</a>
             <a class="sidenavLink" href="#HolidayCamps">Holiday Camps & Workshops</a>
-            <a class="sidenavLink" href="#AfterSchool">After School Clubs</a>
+            <a class="sidenavLink" href="#AfterSchool">After School & LunchClubs</a>
             <a class="sidenavLink" href="#Parties">Parties</a>
             <a class="sidenavLink" href="#PrivateSinging">Private Singing Lessons</a>
             <a class="sidenavLink" href="https://app.classmanager.com/classes/ising-idance-iact-theatre-school">Bookings</a>
