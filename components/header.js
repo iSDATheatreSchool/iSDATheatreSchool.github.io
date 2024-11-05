@@ -19,7 +19,7 @@ class Header extends HTMLElement {
                                 <li><a href="#">Home</a></li>
                                 
                                 <li class="dropdown">
-                                    <a href="#">Classes</a>
+                                    <a href="#Classes">Classes</a>
             
                                 <ul class="dropdown-menu">
                                         <li>&nbsp;</li>
