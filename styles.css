@@ -30,11 +30,11 @@
     --headingFont2: #ffffff;
 
 
-    --backgroundImage1: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/iSDA-Group.JPEG);
+    --backgroundImage1: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/iSDA-Group.jpg);
     --backgroundImage2: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/Action-shot-singing-and-dancing.JPG);
     --backgroundImage3: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/Robot3.jpeg);
 
-    --backgroundImageMobile1: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/iSDA-Group-Mobile.JPEG);
+    --backgroundImageMobile1: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/iSDA-Group-Mobile.jpg);
     --backgroundImageMobile2: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/Action-shot-singing-and-dancing.JPG);
     --backgroundImageMobile3: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/RobotMobile3.png);
   }
