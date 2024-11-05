@@ -25,7 +25,7 @@
     --buttonColourHover2: rgb(172, 121, 28);
 
     --headingFont1: red;
-    --headingFont2: ffffff;
+    --headingFont2: #ffffff;
 
 
     --backgroundImage1: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/iSDA-Group.png);
@@ -110,9 +110,26 @@ body {
     
 }
 
+.scrollColumns{
+    display: flex;
+    gap:40px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+    scroll-snap-type: x mandatory;
+
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}
+
 .testimonyColumn {
     font-style: italic;
-    max-width: 240px;
+    max-width: 310px;
+    flex: 0 0 auto;
+
+    scroll-snap-align: start;
+
 
 }
 
@@ -244,6 +261,12 @@ body {
 
 .svgIcon {
     max-width: 16px;
+}
+
+.svgStarIcon {
+    max-width: 26px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 
