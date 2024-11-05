@@ -23,7 +23,7 @@ class Header extends HTMLElement {
             
                                 <ul class="dropdown-menu">
                                         <li>&nbsp;</li>
-                                        <li><a href="#WeekleyClasses">Weekly Classes</a></li>
+                                        <li><a href="#TheatreSchool">Theatre School</a></li>
                                         <li><a href="#HolidayCamps">Holiday Camps & Workshops</a></li>
                                         <li><a href="#AfterSchool">After School & LunchClubs</a></li>
                                         <li><a href="#Parties">Parties</a></li>
@@ -60,7 +60,7 @@ class Header extends HTMLElement {
             
             <a class="sidenavLink" href="#">Home</a>
 
-            <a class="sidenavLink" href="#WeekleyClasses">Weekly Classes</a>
+            <a class="sidenavLink" href="#TheatreSchool">Theatre School</a>
             <a class="sidenavLink" href="#HolidayCamps">Holiday Camps & Workshops</a>
             <a class="sidenavLink" href="#AfterSchool">After School & LunchClubs</a>
             <a class="sidenavLink" href="#Parties">Parties</a>
