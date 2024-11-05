@@ -11,9 +11,11 @@
 
     --pageBackgroundColour: #ffffff;
 
+    --formTextBackgroundColour: #ffffff;
+
     --backgroundColour1: #ffffff;
     --backgroundColour2: lightgray;
-    --backgroundColour3: #686868;
+    --backgroundColour3: #dfdfdf;
 
     --textColour:#333;
     --textColourLight:#ffffff;
@@ -113,12 +115,14 @@ body {
 .scrollColumns{
     display: flex;
     gap:40px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
+    flex-wrap: none;
+    overflow-x: scroll;
+    list-style: none;
+
 
     scroll-snap-type: x mandatory;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
 
     &::-webkit-scrollbar {
         display: none;
@@ -127,10 +131,11 @@ body {
 
 .testimonyColumn {
     font-style: italic;
-    max-width: 300px;
-    flex: 0 0 auto;
+    max-width: 30%;
+    flex: 0 0 100%;
 
-    scroll-snap-align: center;
+    scroll-snap-align: start;
+    transition: all 0.2s;
 
 
 
@@ -272,6 +277,10 @@ body {
     padding-right: 3px;
 }
 
+.svgSocialMedia {
+    max-width: 36px !important;
+}
+
 
 
 
@@ -351,11 +360,11 @@ body {
     padding-bottom: 10px; 
     padding-inline: 30px;
     border-radius: 20px;
-    background-color: lightgray;
+    background-color: var(--backgroundColour3);
 }
 
 .form-field {
-    background: #eee;
+    background: var(--formTextBackgroundColour);
     border: none;
     border-radius: 5px;
     color: var(--textColour);
@@ -363,6 +372,8 @@ body {
     width: 300px;
     font-size: 18px;
 }
+
+
 
 .form-group {
     padding-top:20px;
@@ -377,6 +388,17 @@ body {
 .input-group{
     padding-top: 8px;
 
+}
+
+.textLink {
+    color: var(--textColour);
+    text-decoration: none;
+}
+
+.textLink :hover {
+    color: var(--textColour);
+    font-weight: bold;
+    text-decoration: none;
 }
 
 
@@ -593,6 +615,11 @@ gap: 15px;
 
     .backgroundImage3 {
         background-image: var(--backgroundImageMobile3);
+    }
+
+    .testimonyColumn {
+        font-style: italic;
+        max-width: 100%;
     }
   }
 
