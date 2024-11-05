@@ -34,7 +34,7 @@
     --backgroundImage2: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/Action-shot-singing-and-dancing.JPG);
     --backgroundImage3: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/Robot3.jpeg);
 
-    --backgroundImageMobile1: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/iSDA-Group.png);
+    --backgroundImageMobile1: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/iSDA-Group-Mobile.png);
     --backgroundImageMobile2: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/Action-shot-singing-and-dancing.JPG);
     --backgroundImageMobile3: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/RobotMobile3.png);
   }
@@ -620,6 +620,7 @@ gap: 15px;
     .testimonyColumn {
         font-style: italic;
         max-width: 100%;
+
     }
   }
 
