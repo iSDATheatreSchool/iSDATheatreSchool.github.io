@@ -32,11 +32,11 @@
 
     --backgroundImage1: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/iSDA-Group.jpg);
     --backgroundImage2: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/Action-shot-singing-and-dancing.JPG);
-    --backgroundImage3: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/Robot3.jpeg);
+    --backgroundImage3: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/Private_singing_lesson_Brackley_warwick_leamington_spa.jpg);
 
-    --backgroundImageMobile1: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/iSDA-Group-Mobile.jpg);
+    --backgroundImageMobile1: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/iSDA-Group-cropped.jpg);
     --backgroundImageMobile2: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/Action-shot-singing-and-dancing.JPG);
-    --backgroundImageMobile3: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/RobotMobile3.png);
+    --backgroundImageMobile3: linear-gradient(270deg, rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(images/Private_singing_lesson_Brackley_warwick_leamington_spa.jpg);
   }
 
 body {
@@ -73,7 +73,7 @@ body {
     width:100%;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 5px;
 }
 
 .sectionTitle h2 {
@@ -445,7 +445,7 @@ margin: 0;
 .nav-links {
 list-style: none;
 display: flex;
-gap: 15px;
+gap: 5px;
 }
 
 .nav-links li {
@@ -462,9 +462,19 @@ gap: 15px;
     transition: background-color 0.3s ease;
 }
 
+.nav-links a img {
+    vertical-align:middle;
+    
+}
+
 .nav-links a:hover {
     background-color: var(--navItemHover);
 }
+
+.svgLink {
+    padding-right: 10px;
+}
+
 
 /* Dropdown menu styles */
 .dropdown-menu {
@@ -481,7 +491,7 @@ gap: 15px;
     list-style: none;
     padding:0;
     margin: 0;
-    width: 200px;
+    width: 300px;
     border-radius: 5px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1000;
@@ -580,7 +590,7 @@ gap: 15px;
   }
 
   .sidenavTitle {
-    color: var(--navBarMenuTextColour);
+    color: var(--headingFont1);
   }
   
   /* Position and style the close button (top right corner) */
@@ -595,6 +605,16 @@ gap: 15px;
 
 
 @media only screen and (max-width: 600px) {
+    .hideDesktop {
+        display:flex;
+        flex-direction: row;
+        gap:5px;
+        
+    }
+    .svgLink {
+        width:30px;
+    }
+
     .hideMobile {
         display:none;
     }
