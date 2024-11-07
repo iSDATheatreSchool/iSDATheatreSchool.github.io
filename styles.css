@@ -650,6 +650,11 @@ gap: 5px;
     .hideMobile {
         display:none;
     }
+
+    .flexColumns {
+        gap:10px;
+    }
+
     .sidenav {
         display:block;
     }
