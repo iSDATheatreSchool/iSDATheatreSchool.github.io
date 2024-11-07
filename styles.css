@@ -176,6 +176,7 @@ body {
     max-width: 400px;
 }
 
+
 .flexSpaceBetween {
     width:100%;
     display:flex;
@@ -350,8 +351,18 @@ body {
     padding-bottom:40px;
 }
 
+.p-bottom-10 {
+    padding-bottom:10px;
+}
+
 .p-top-10 {
     padding-top:10px;
+}
+.p-top-20 {
+    padding-top:20px;
+}
+.p-top-30 {
+    padding-top:30px;
 }
 
 .alignTextCenter {
@@ -458,7 +469,7 @@ margin: 0;
 }
 
 .navbarLogo > img{
-height: 50px;
+height: 40px;
 padding: 0;
 margin: 0;
 }
